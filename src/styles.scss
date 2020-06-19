@@ -1,1 +1,55 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap');
+
+// Global styling
+body {
+  background: #0070ad;
+  color: #2B0A3D;
+  animation: fade-background 2s .5s forwards;
+  font-family: 'Oxygen', sans-serif;
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin: auto;
+}
+
+// colors
+
+.dark {
+  background: #2B0A3D;
+}
+
+.gray {
+  background: #ECECEC;
+}
+
+// Alignment
+
+.text-left {
+  text-align: left;
+}
+
+// Animations
+
+@keyframes fade-background {
+  from {
+    backgroud: #0070ad;
+  }
+  to {
+    background: white;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+

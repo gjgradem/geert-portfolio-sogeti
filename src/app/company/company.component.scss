@@ -1,0 +1,23 @@
+.company {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  margin: 1rem;
+
+  .logo {
+    width: 8rem;
+    margin-right: 2rem;
+  }
+
+  .content {
+    flex: 3;
+
+    h2 {
+      margin-top: 0;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+  }
+}

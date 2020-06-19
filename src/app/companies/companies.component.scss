@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 10vh 0;
+}
+
+.companies {
+
+  .company-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .company {
+      flex: 0 50%;
+    }
+  }
+}
